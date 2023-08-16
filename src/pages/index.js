@@ -71,11 +71,11 @@ export default function FirstPost() {
           </div> 
           <WagmiConfig config={wagmiConfig}>
             <RainbowKitProvider chains={chains}>              
-              <h1 style={{'textAlign': "center", 'fontFamily': 'SFUI', "padding": "10px"}}>
+              <h1 style={{'textAlign': "center", 'fontFamily': 'SFUI', "padding": "10px", "color": "white"}}>
                 Onchain Summer is here!
               </h1>
               
-              <h1 style={{'textAlign': "center", 'fontFamily': 'SFUI'}}>
+              <h1 style={{'textAlign': "center", 'fontFamily': 'SFUI' , "color": "white"}}>
                 Mint this brand new NFT related to the Base "Onchain Summer" campaign
               </h1>
               
@@ -95,7 +95,7 @@ export default function FirstPost() {
                 <MintNFT />
               </div>
 
-              <div id="totalSupply" style={{'textAlign': "center", 'fontFamily': 'SFUI', "padding": "10px"}}>
+              <div id="totalSupply" style={{'textAlign': "center", 'fontFamily': 'SFUI', "padding": "10px", "color": "white"}}>
                 <GetTotalSupply />
               </div>
 
