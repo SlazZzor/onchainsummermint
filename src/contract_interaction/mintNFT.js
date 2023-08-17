@@ -28,8 +28,7 @@ export function MintNFT() {
   return (
     <div style={{"margin": "auto", "width": "20%"}}>
       <button className="button-1" disabled={!write || isLoading} onClick={() => write()}>
-        {(!write || isLoading) ? "Please connect your wallet" : "Mint"}
-        {isLoading ? 'Minting...' : ''}
+        {(!write) ? "Please connect your wallet" : (isLoading ?  "Minting..." : "Mint")}
         </button>
         {isSuccess && (
         <div style={{'textAlign': "center", 'fontFamily': 'SFUI', 'font-size': '15px', 'padding': "10px"}}>
