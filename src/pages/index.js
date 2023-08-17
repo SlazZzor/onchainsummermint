@@ -19,7 +19,7 @@ import tokenContract from "../contract_interaction/contract.json";
 
 
 function GetTotalSupply(){
-  const NFT_CONTRACT_ADDRESS = "0xEAF4F4DaDA2e9E0Aeb09DD18932c8A255cF0c06d";
+  const NFT_CONTRACT_ADDRESS = "0x078f5a3799E869467a613D28Ab5B7ad2b1Ffd6a6";
   const { data } = useContractRead({
     address: NFT_CONTRACT_ADDRESS,
     abi: tokenContract.abi,
